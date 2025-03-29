@@ -3,6 +3,6 @@ module calcula_paridade (
   output paridade
 );
 
-// implemente o seu código aqui
-
+  assign paridade = ^dado; // ^: aplica a operação XOR entre todos os bits do vetor.
+   
 endmodule
